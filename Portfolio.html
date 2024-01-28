@@ -1,0 +1,220 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li class="active"><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Index.html">Index</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Enthusiastic programmer in web development and software engineering. I love turning ideas into reality through clean, efficient code.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>I build my very first computer when I was 4 years old, because I wanted to play PC games</p>
+                <a href="javascript:void(0);" onclick="openModal('project1-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>when i was 6 i cracked a ps2 to burn cd's</p>
+                <a href="javascript:void(0);" onclick="openModal('project2-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Put up network for a department at Staffangymnasiet</p>
+                <a href="javascript:void(0);" onclick="openModal('project3-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 4</h3>
+                <p>Set up expensive projectors for the teachers at Staffangymnasiet</p>
+                <a href="javascript:void(0);" onclick="openModal('project4-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 5</h3>
+                <img src="Blender.png" alt="Project 5">
+                <p>Spent 5 years in 3d model softwares and created a bunch of assets</p>
+                <a href="javascript:void(0);" onclick="openModal('project5-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 6</h3>
+                <img src="Unreal Engine.png" alt="Project 6">
+                <p>Spent a year+ in game development at Staffangymnasiet to graduate</p>
+                <a href="javascript:void(0);" onclick="openModal('project6-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 7</h3>
+                <p>spent 3 years soldering hardware and programming them</p>
+                <a href="javascript:void(0);" onclick="openModal('project7-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 8</h3>
+                <img src="Camera Software.jpg" alt="Project 8">
+                <p>Setting up cameras and Programming the software</p>
+                <a href="javascript:void(0);" onclick="openModal('project8-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 9</h3>
+                <p>Spent 2 years learning html</p>
+                <a href="javascript:void(0);" onclick="openModal('project9-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 10</h3>
+                <p>Spent 2 years learning css</p>
+                <a href="javascript:void(0);" onclick="openModal('project10-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 11</h3>
+                <p>Spent 3 year learning JavaScript</p>
+                <a href="javascript:void(0);" onclick="openModal('project11-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 12</h3>
+                <p>Spent 2 year learning php</p>
+                <a href="javascript:void(0);" onclick="openModal('project12-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 13</h3>
+                <p>Spent 3 year+ learning c++/c# for game development</p>
+                <a href="javascript:void(0);" onclick="openModal('project13-details')">Details</a>
+            </div>
+
+            <div class="project">
+                <h3>Project 14</h3>
+                <img src="Cisco.jpg" alt="Project 14">
+                <p>Setup and programmed servers for school at Staffangymnasiet</p>
+                <a href="javascript:void(0);" onclick="openModal('project14-details')">Details</a>
+            </div>
+
+            <div id="project1-details" class="project-details" style="display: none;">
+                <h4>Project 1 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project1-details')">Close</button>
+            </div>
+
+            <div id="project2-details" class="project-details" style="display: none;">
+                <h4>Project 2 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project2-details')">Close</button>
+            </div>
+
+            <div id="project3-details" class="project-details" style="display: none;">
+                <h4>Project 3 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project3-details')">Close</button>
+            </div>
+
+            <div id="project4-details" class="project-details" style="display: none;">
+                <h4>Project 4 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project4-details')">Close</button>
+            </div>
+
+            <div id="project5-details" class="project-details" style="display: none;">
+                <h4>Project 5 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project5-details')">Close</button>
+            </div>
+
+            <div id="project6-details" class="project-details" style="display: none;">
+                <h4>Project 6 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project6-details')">Close</button>
+            </div>
+
+            <div id="project7-details" class="project-details" style="display: none;">
+                <h4>Project 7 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project7-details')">Close</button>
+            </div>
+
+            <div id="project8-details" class="project-details" style="display: none;">
+                <h4>Project 8 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project8-details')">Close</button>
+            </div>
+
+            <div id="project9-details" class="project-details" style="display: none;">
+                <h4>Project 9 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project9-details')">Close</button>
+            </div>
+
+            <div id="project10-details" class="project-details" style="display: none;">
+                <h4>Project 10 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project10-details')">Close</button>
+            </div>
+
+            <div id="project11-details" class="project-details" style="display: none;">
+                <h4>Project 11 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project11-details')">Close</button>
+            </div>
+
+            <div id="project12-details" class="project-details" style="display: none;">
+                <h4>Project 12 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project12-details')">Close</button>
+            </div>
+
+            <div id="project13-details" class="project-details" style="display: none;">
+                <h4>Project 13 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project13-details')">Close</button>
+            </div>
+
+            <div id="project14-details" class="project-details" style="display: none;">
+                <h4>Project 14 Details</h4>
+                <p>Hello</p>
+                <button onclick="closeModal('project14-details')">Close</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Erik Berglund. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'block';
+        }
+    
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+    </script>
+</body>
+</html>
